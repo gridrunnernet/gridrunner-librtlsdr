@@ -22,11 +22,6 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
-#ifndef _WIN32
-#include <unistd.h>
-#define min(a, b) (((a) < (b)) ? (a) : (b))
-#endif
-
 #include <libusb.h>
 
 /*

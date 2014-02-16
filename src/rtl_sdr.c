@@ -22,14 +22,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#ifndef _WIN32
-#include <unistd.h>
-#else
-#include <windows.h>
-#include <io.h>
-#include <fcntl.h>
-#include "getopt/getopt.h"
-#endif
 
 #include "rtl-sdr.h"
 #include "convenience/convenience.h"
